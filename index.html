@@ -5,7 +5,28 @@
     <meta charset="UTF-8">
     <title>Advanced CSS - Assignment 1</title>
     <style>
+        a[href^="https://www.google.com/"]{
+            color: #0a550a;
+        }
+        a[target="_blank"]{
+            color: #d10909;
+        }
+         #second-div>p:nth-child(2n+2){
+            color: red;
+        }
+        #second-div>p:nth-child(2n+1){
+            color:blue;
+        }
+        #first-div>p::after {
+            content:"NEW";
+            color: yellow;
+        }
+        body > p:last-child:hover{
+            font-style: oblique;
+            cursor: pointer;
 
+
+        }
 
     </style>
 </head>
