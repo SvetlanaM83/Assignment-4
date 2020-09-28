@@ -1,0 +1,3 @@
+a [href^="https://www.google.com"] {
+    color: #115f11;
+}
